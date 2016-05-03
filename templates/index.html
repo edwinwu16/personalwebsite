@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-</html>
 
 <head>
+    <title>Edwin Wu</title>
   <link href="../stylesheets/styles.css" rel="stylesheet" type="text/css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="../javascripts/scrolling.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+  <script src="../javascripts/scroll.js"></script>
 </head>
 
 
@@ -36,80 +38,134 @@
 			<div class = "tablecent">
 				<h2>About Me</h2>
                 <p>I'm Edwin Wu, a current junior at Northwestern studying Mathematical Methods in the Social Sciences, Economics, and Computer Science. 
-                I'm interested in the intersection of technology and finance, with particular emphasis on corporate strategy in the technology world.
+                I'm interested in the intersection of technology and finance, with particular emphasis on corporate strategy in disruptive industries.
                 I'm also passoniate about international development with experience helping run Engineers Without Borders as Vice President of Finances and Corporate
                 Relations. This summer, I'll be working at Greenhill
                 in Industrials M&A and Restructuring. Whether its about international development, technology, or finance, I'd love to chat and share ideas. Feel free to send me a note or connect with me on LinkedIn. </p>
 			</div>
 		</div>
 	
-    
-        <div id="resume" class="table">
-            <div class="tablecent">
-                <h2>Resume</h2>
-                
+        <div id="resumetitle" class="tentable">
+            <h2>Resume</h2>
+        </div>
+        <div id="rightarrow" class="tentable">
+            <h2>Resume</h2>
+        </div>
+        <div id="arrow" class="larrow"></div>
+        <div id="contain" class="resumecontainer">
+            <div id="yo" class="timeline">
+                <svg id="blue" viewBox="0 0 1000 100">
+                    <defs>
+                        <pattern id="nu" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
+                            <image xlink:href="../pictures/nu.png" x="6.3" y="3" height="100" width="100">
+                            </image>
+                        </pattern>
+                        <pattern id="kell" x="6" y="0" patternunits="userSpaceOnUse" height="100" width="100">
+                            <image xlink:href="../pictures/Kellogg_logo.png" x="-25" y="0" height="100" width="100">
+                            </image>
+                        </pattern>
+                        <pattern id="hrt" x="8" y="8" patternunits="userSpaceOnUse" height="100" width="100">
+                            <image xlink:href="../pictures/heartland.jpg" x="0" y="0" height="100" width="100">
+                            </image>
+                        </pattern>
+                        <pattern id="zieg" x="6" y="8" patternunits="userSpaceOnUse" height="100" width="100">
+                            <image xlink:href="../pictures/ziegler.jpeg" x="-5" y="-5" height="100" width="100">
+                            </image>
+                        </pattern>
+                        <pattern id="green" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
+                            <image xlink:href="../pictures/Greenhill.jpg" x="0" y="0" height="100" width="100">
+                            </image>
+                        </pattern>
+
+                    </defs>
+                    <polygon points="100,100 110,10 10,10 0,100" fill="url(#nu)"></polygon>
+                    <g>
+                        <polygon points="110,10 111.11111,0 11.11111,0 10,10 " fill="none" />
+                        <text x="25" y="6.8" font-family="Verdana" font-size="6" fill="blue">June 2013 - August 2013 </text>
+                    </g>
+                    <polygon points="300,100 310,10 110,10 100,100" fill="none" stroke="none" />
+                    <polygon points="300,100 310,10 110,100" fill="none" />
+                    <g>
+                        <polygon points="410,10 411.11111,0 311.11111,0 310,10" fill="none" />
+                        <text x="325" y="6.8" font-family="Verdana" font-size="6" fill="blue">March 2013 - June 2013 </text>
+                    </g>
+                    <polygon points="400,100, 410,10 300,100" fill="url(#hrt)" />
+                    <polygon points="410,10 300,100 310,10" fill="url(#kell)" />
+                    <g>
+                        <polygon points="510,10 511.11111,0 411.11111,0 410,10" fill="none" />
+                        <text x="425" y="6.8" font-family="Verdana" font-size="6" fill="blue">June 2013 - August 2013 </text>
+                    </g>
+                    <polygon points="400,100 410,10 510,10 500,100" fill="url(#zieg)" />
+                    <emppolygon points="700,100 710,10 510,10 500,100" fill="none" stroke="none" />
+
+
+
+
+                </svg>
             </div>
-            
         </div>
-    <div class="block">
-        <div class="square">
-            <svg viewBox="0 0 100 100">
-                <defs>
-                    <pattern id="nu" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
-                        <image xlink:href="../pictures/nu.png" x="0" y="0" height="100" width="100">
-                        </image>
-                    </pattern>
-                    <pattern id="kell" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
-                        <image xlink:href="../pictures/Kellogg_logo.png" x="-25" y="0" height="100" width="100">
-                        </image>
-                    </pattern>
-                    <pattern id="hrt" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
-                        <image xlink:href="../pictures/heartland.jpg" x="0" y="0" height="100" width="100">
-                        </image>
-                    </pattern>
-                    <pattern id="zieg" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
-                        <image xlink:href="../pictures/ziegler.jpeg" x="-5" y="-5" height="100" width="100">
-                        </image>
-                    </pattern>
-                    <pattern id="green" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
-                        <image xlink:href="../pictures/Greenhill.jpg" x="0" y="0" height="100" width="100">
-                        </image>
-                    </pattern>
+    <div id="arrow" class="rarrow"></div>
 
-                </defs>
-                <polygon points="100,100 100,0 0,0 0,100" fill="url(#nu)"></polygon>
-            </svg>
-        </div>
-        <div class="square">
-            <svg viewBox="0 0 100 100">
-                <polygon points="0,0, 0,100 100,0" fill="url(#kell)"></polygon>
-                <polygon points="100,100 0,100 100,0" fill="url(#hrt)"></polygon>
-            </svg>
-        </div>
-        <div class="square">
-            <svg viewBox="0 0 100 100">  
-                <polygon points="0,0, 100,0, 100,100 0,100" fill="url(#zieg)"></polygon
-            </svg>
-        </div>
-        <div class="square">
-            <svg viewBox="0 0 100 100">
-                <polygon points="0,0, 0,100 100,0" fill="url(#kell)"></polygon>
-                <polygon points="100,100 0,100 100,0" fill="url(#nu)"></polygon
-            </svg>
-        </div>
-        <div class="square">
-            <svg viewBox="0 0 100 100">
-                <polygon points="0,0, 100,0, 100,100 0,100" fill="url(#green)"></polygon
-            </svg>
-        </div>
-        <div class="fixedbottom">
+        <!-- <div class="fulldiv">
+            <div class="block">
+                <div class="square">
+                    <svg viewBox="0 0 100 100">
+                        <defs>
+                            <pattern id="nu" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
+                                <image xlink:href="../pictures/nu.png" x="0" y="0" height="100" width="100">
+                                </image>
+                            </pattern>
+                            <pattern id="kell" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
+                                <image xlink:href="../pictures/Kellogg_logo.png" x="-25" y="0" height="100" width="100">
+                                </image>
+                            </pattern>
+                            <pattern id="hrt" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
+                                <image xlink:href="../pictures/heartland.jpg" x="0" y="0" height="100" width="100">
+                                </image>
+                            </pattern>
+                            <pattern id="zieg" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
+                                <image xlink:href="../pictures/ziegler.jpeg" x="-5" y="-5" height="100" width="100">
+                                </image>
+                            </pattern>
+                            <pattern id="green" x="0" y="0" patternunits="userSpaceOnUse" height="100" width="100">
+                                <image xlink:href="../pictures/Greenhill.jpg" x="0" y="0" height="100" width="100">
+                                </image>
+                            </pattern>
 
-        </div>
+                        </defs>
+                        <polygon points="100,100 100,0 0,0 0,100" fill="url(#nu)"></polygon>
+                    </svg>
+                </div>
+                <div class="square">
+                    <svg viewBox="0 0 100 100">
+                        <polygon points="0,0, 0,100 100,0" fill="url(#kell)"></polygon>
+                        <polygon points="100,100 0,100 100,0" fill="url(#hrt)"></polygon>
+                    </svg>
+                </div>
+                <div class="square">
+                    <svg viewBox="0 0 100 100">
+                        <polygon points="0,0, 100,0, 100,100 0,100" fill="url(#zieg)"></polygon>
+                    </svg>
+                </div>
+                <div class="square">
+                    <svg viewBox="0 0 100 100">
+                        <polygon points="0,0, 0,100 100,0" fill="url(#kell)"></polygon>
+                        <polygon points="100,100 0,100 100,0" fill="url(#nu)"></polygon>
+                    </svg>
+                </div>
+                <div class="square">
+                    <svg viewBox="0 0 100 100">
+                        <polygon points="0,0, 100,0, 100,100 0,100" fill="url(#green)"></polygon>
+                    </svg>
+                </div>
+
+            </div>
+        </div> -->
         
-    </div>
-    <div>
-        yoyoyo
-    </div>
+   
+        
+        
+    
     
 	
 </body>
